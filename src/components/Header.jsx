@@ -82,7 +82,7 @@ export default function Navbar() {
           </Button>
           <Button
             as={Link}
-            to={'login'}
+            to={'selection-login'}
             variant={'outline'}
             colorScheme={'teal'}
             size={'sm'}>
