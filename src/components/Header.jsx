@@ -63,6 +63,7 @@ export default function Navbar() {
             display={{ base: 'none', md: 'flex' }}
             width="100%"
             justifyContent="center"
+            color={'white'}
           >
             {Links.map((link) => (
               <NavLink key={link}>{link}</NavLink>
