@@ -23,7 +23,7 @@ const NavLink = ({ children }) => (
       textDecoration: 'none',
       bg: 'gray.200',
     }}
-    to={`${children.toLowerCase()}`}>
+    to={children === 'Home' ? '/' : `/${children.toLowerCase()}`}>
     {children}
   </Link>
 );
